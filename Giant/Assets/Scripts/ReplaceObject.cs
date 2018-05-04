@@ -5,8 +5,7 @@ using HoloToolkit.Unity.SpatialMapping;
 using UnityEngine;
 
 public class ReplaceObject : MonoBehaviour, IInputClickHandler{
-    public SpatialMappingManager spatialMappingManager;
-    bool placing = false;
+    static bool placing = false;
 
     // Use this for initialization
     void Start () {
