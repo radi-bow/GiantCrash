@@ -3,23 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RemovePillar : MonoBehaviour {
-    public bool isRemoved;
 
 	// Use this for initialization
 	void Start () {
-        isRemoved = false;
+        
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (!isRemoved)
-        {
-            isRemoved = true;
-            Selected();
-        }
+        
 	}
 
-    public void Selected()
+    public void Removed()
     {
         StartCoroutine("Remove");
     }
