@@ -10,6 +10,7 @@ public class NumberButtonController : MonoBehaviour {
     void Start()
     {
         pillarManager = GameObject.Find("PillarManager").GetComponent<PillarManager>();
+        GetComponent<CompoundButtonText>().Text = (pillarManager.pillarNum + 1).ToString();
     }
 
     // Update is called once per frame
@@ -32,11 +33,11 @@ public class NumberButtonController : MonoBehaviour {
 
     private void ButtonPressed(GameObject obj)
     {
-        GetComponent<CompoundButtonText>().Text = (pillarManager.pillarNum + 1).ToString();
         pillarManager.pillarNum++;
         if (pillarManager.pillarNum == 9)
         {
             pillarManager.pillarNum = 0;
         }
+        GetComponent<CompoundButtonText>().Text = (pillarManager.pillarNum + 1).ToString();
     }
 }

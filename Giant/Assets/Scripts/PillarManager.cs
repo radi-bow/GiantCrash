@@ -10,6 +10,7 @@ public class PillarManager : MonoBehaviour {
 
     private int prevPillarNum;
     private Color prevColor;
+    public bool isGo;
 
 	// Use this for initialization
 	void Start () {
@@ -20,6 +21,7 @@ public class PillarManager : MonoBehaviour {
             pillarsState[i] = true;
         }
         prevColor = pillars[GetColorPillarNum(colorNum, pillarNum)].GetComponent<Renderer>().material.color;
+        pillars[GetColorPillarNum(colorNum, pillarNum)].GetComponent<Renderer>().material.color = Color.white;
     }
 
     // Update is called once per frame
@@ -31,8 +33,9 @@ public class PillarManager : MonoBehaviour {
             prevColor = pillars[nowPillarNum].GetComponent<Renderer>().material.color;
             pillars[nowPillarNum].GetComponent<Renderer>().material.color = Color.white;
         }
-        if (false)//goのclickを受け取ったら
+        if (isGo && pillarsState[nowPillarNum])//goのclickを受け取ったら
         {
+            isGo = false;
             RemovePillar(colorNum, pillarNum);
         }
 
