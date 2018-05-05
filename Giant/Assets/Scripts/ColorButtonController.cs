@@ -6,16 +6,18 @@ using HoloToolkit.Unity.Buttons;
 public class ColorButtonController : MonoBehaviour {
     public ButtonMeshProfile[] profile;
     private PillarManager pillarManager;
+    private float time;
 
 	// Use this for initialization
 	void Start () {
         pillarManager = GameObject.Find("PillarManager").GetComponent<PillarManager>();
         GetComponent<CompoundButtonMesh>().Profile = profile[pillarManager.colorNum];
+        time = 0.0f;
     }
 	
 	// Update is called once per frame
 	void Update () {
-		
+        time += Time.deltaTime;
 	}
 
     private void OnEnable()
@@ -32,11 +34,15 @@ public class ColorButtonController : MonoBehaviour {
 
     private void ButtonPressed(GameObject obj)
     {
-        pillarManager.colorNum++;
-        if (pillarManager.colorNum == 4)
+        if(time > 1.0f)
         {
-            pillarManager.colorNum = 0;
+            time = 0.0f;
+            pillarManager.colorNum++;
+            if (pillarManager.colorNum == 4)
+            {
+                pillarManager.colorNum = 0;
+            }
+            GetComponent<CompoundButtonMesh>().Profile = profile[pillarManager.colorNum];
         }
-        GetComponent<CompoundButtonMesh>().Profile = profile[pillarManager.colorNum];
     }
 }

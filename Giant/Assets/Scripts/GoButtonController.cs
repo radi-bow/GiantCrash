@@ -5,14 +5,17 @@ using HoloToolkit.Unity.Buttons;
 
 public class GoButtonController : MonoBehaviour {
     private PillarManager pillarManager;
+    private float time;
+
     // Use this for initialization
     void Start () {
         pillarManager = GameObject.Find("PillarManager").GetComponent<PillarManager>();
+        time = 0.0f;
     }
 	
 	// Update is called once per frame
 	void Update () {
-		
+        time += Time.deltaTime;
 	}
 
     private void OnEnable()
@@ -29,6 +32,10 @@ public class GoButtonController : MonoBehaviour {
 
     private void ButtonPressed(GameObject obj)
     {
-        pillarManager.isGo = true;
+        if(time > 1.0f)
+        {
+            time = 0.0f;
+            pillarManager.isGo = true;
+        }
     }
 }
