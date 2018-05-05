@@ -10,6 +10,7 @@ public class PillarManager : MonoBehaviour {
 
     private int prevPillarNum;
     private Color prevColor;
+    private SelectedPillarController selectedPillarController;
     public bool isGo;
 
 	// Use this for initialization
@@ -20,8 +21,10 @@ public class PillarManager : MonoBehaviour {
         {
             pillarsState[i] = true;
         }
-        prevColor = pillars[GetColorPillarNum(colorNum, pillarNum)].GetComponent<Renderer>().material.color;
-        pillars[GetColorPillarNum(colorNum, pillarNum)].GetComponent<Renderer>().material.color = Color.white;
+        //prevColor = pillars[GetColorPillarNum(colorNum, pillarNum)].GetComponent<Renderer>().material.color;
+        //pillars[GetColorPillarNum(colorNum, pillarNum)].GetComponent<Renderer>().material.color = Color.white;
+        selectedPillarController = GameObject.Find("SelectedPillarController").GetComponent<SelectedPillarController>();
+        selectedPillarController.SetSelectedPillarMaterial(pillars[GetColorPillarNum(colorNum, pillarNum)]);
     }
 
     // Update is called once per frame
@@ -29,9 +32,11 @@ public class PillarManager : MonoBehaviour {
         int nowPillarNum = GetColorPillarNum(colorNum, pillarNum);
         if (prevPillarNum != nowPillarNum)
         {
-            pillars[prevPillarNum].GetComponent<Renderer>().material.color = prevColor;
-            prevColor = pillars[nowPillarNum].GetComponent<Renderer>().material.color;
-            pillars[nowPillarNum].GetComponent<Renderer>().material.color = Color.white;
+            //pillars[prevPillarNum].GetComponent<Renderer>().material.color = prevColor;
+            //prevColor = pillars[nowPillarNum].GetComponent<Renderer>().material.color;
+            //pillars[nowPillarNum].GetComponent<Renderer>().material.color = Color.white;
+            selectedPillarController.ResetSelectedPillarMaterial(pillars[prevPillarNum]);
+            selectedPillarController.SetSelectedPillarMaterial(pillars[nowPillarNum]);
         }
         if (isGo && pillarsState[nowPillarNum])//goのclickを受け取ったら
         {
