@@ -37,10 +37,14 @@ public class PillarManager : MonoBehaviour {
             selectedPillarController.ResetSelectedPillarMaterial(pillars[prevPillarNum]);
             selectedPillarController.SetSelectedPillarMaterial(pillars[nowPillarNum]);
         }
-        if (isGo && pillarsState[nowPillarNum])
+
+        if (isGo)
         {
             isGo = false;
-            RemovePillar(colorNum, pillarNum);
+            if (pillarsState[nowPillarNum])
+            {
+                RemovePillar(colorNum, pillarNum);
+            }
         }
 
         prevPillarNum = nowPillarNum;
