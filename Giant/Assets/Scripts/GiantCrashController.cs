@@ -19,8 +19,14 @@ public class GiantCrashController : MonoBehaviour {
     {
         if (other.gameObject.tag == "Giant")
         {
-            Destroy(other.gameObject);
-            gameController.ChangeToEnd();
+            StartCoroutine("WaitAndGoEnd",other.gameObject);
         }
+    }
+
+    IEnumerator WaitAndGoEnd(GameObject gameObject)
+    {
+        yield return new WaitForSeconds(3.0f);
+        Destroy(gameObject);
+        gameController.ChangeToEnd();
     }
 }
