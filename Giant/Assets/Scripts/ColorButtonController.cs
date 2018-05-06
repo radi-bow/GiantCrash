@@ -11,7 +11,7 @@ public class ColorButtonController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         pillarManager = GameObject.Find("PillarManager").GetComponent<PillarManager>();
-        GetComponent<CompoundButtonMesh>().Profile = profile[pillarManager.colorNum];
+        //GetComponent<CompoundButtonMesh>().Profile = profile[pillarManager.colorNum];
         time = 0.0f;
     }
 	
@@ -42,7 +42,25 @@ public class ColorButtonController : MonoBehaviour {
             {
                 pillarManager.colorNum = 0;
             }
-            GetComponent<CompoundButtonMesh>().Profile = profile[pillarManager.colorNum];
+            //GetComponent<CompoundButtonMesh>().Profile = profile[pillarManager.colorNum];
+            switch (pillarManager.colorNum)
+            {
+                case 0:
+                    GetComponent<CompoundButtonText>().Text = "黄色";
+                    break;
+
+                case 1:
+                    GetComponent<CompoundButtonText>().Text = "青";
+                    break;
+
+                case 2:
+                    GetComponent<CompoundButtonText>().Text = "赤";
+                    break;
+
+                case 3:
+                    GetComponent<CompoundButtonText>().Text = "緑";
+                    break;
+            }
         }
     }
 }

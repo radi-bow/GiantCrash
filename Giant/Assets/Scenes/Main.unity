@@ -1759,9 +1759,7 @@ Prefab:
     - target: {fileID: 102999891068218110, guid: 7bcb89df8599d00448726407181348bd,
         type: 2}
       propertyPath: m_Text
-      value: 'Select
-
-        Color'
+      value: "\u9EC4\u8272"
       objectReference: {fileID: 0}
     - target: {fileID: 114776147498804614, guid: 7bcb89df8599d00448726407181348bd,
         type: 2}
@@ -1817,6 +1815,10 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867343987448622, guid: 7bcb89df8599d00448726407181348bd, type: 2}
+      propertyPath: m_Name
+      value: ColorUIButtonSquareFace
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7bcb89df8599d00448726407181348bd, type: 2}
