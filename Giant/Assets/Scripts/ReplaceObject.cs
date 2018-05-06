@@ -5,7 +5,7 @@ using HoloToolkit.Unity.SpatialMapping;
 using UnityEngine;
 
 public class ReplaceObject : MonoBehaviour, IInputClickHandler{
-    static bool placing = false;
+    public static bool placing = false;
 
     // Use this for initialization
     void Start () {
@@ -19,6 +19,7 @@ public class ReplaceObject : MonoBehaviour, IInputClickHandler{
 
         if (placing)
         {
+            SpatialMappingManager.Instance.DrawVisualMeshes = true;
             // Do a raycast into the world that will only hit the Spatial Mapping mesh.
             var headPosition = Camera.main.transform.position;
             var gazeDirection = Camera.main.transform.forward;
@@ -42,17 +43,23 @@ public class ReplaceObject : MonoBehaviour, IInputClickHandler{
 
     public void OnInputClicked(InputClickedEventData eventData) {
         // On each Select gesture, toggle whether the user is in placing mode.
-        placing = !placing;
+        if (GameObject.Find("StartUI") == null && GameObject.Find("ToolBar") == null && GameObject.Find("EndBar") == null)
+        {
+            placing = !placing;
+            SpatialMappingManager.Instance.DrawVisualMeshes = false;
+            GameObject.Find("GameController").GetComponent<GameController>().ChangeToStart();
+        }
 
         // If the user is in placing mode, display the spatial mapping mesh.
-        if (placing)
+        /*if (placing)
         {
             SpatialMappingManager.Instance.DrawVisualMeshes = true;
-        }
+        }*/
         // If the user is not in placing mode, hide the spatial mapping mesh.
-        else
+        /*else
         {
             SpatialMappingManager.Instance.DrawVisualMeshes = false;
-        }
+            GameObject.Find("GameController").GetComponent<GameController>().ChangeToStart();
+        }*/
     }
 }
