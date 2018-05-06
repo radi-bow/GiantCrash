@@ -20,15 +20,15 @@ public class RemovePillar : MonoBehaviour {
 
     IEnumerator Remove()
     {
-        float scale = this.transform.localScale.y;
-        float count = scale;
-        while(count > 0.0f)
+        int count = 0;
+        while(count < 50)
         {
             Vector3 pos = this.transform.position;
-            pos.y -= 0.01f;
+            pos.y -= 0.05f;
             this.transform.position = pos;
-            count -= 0.01f;
+            count++;
             yield return new WaitForSeconds(0.05f);
         }
+        this.gameObject.SetActive(false);
     }
 }

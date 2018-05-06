@@ -51,6 +51,21 @@ public class PillarManager : MonoBehaviour {
         }
     }
 
+    public void ResetPillars()
+    {
+        for (int i = 0; i < 36; i++)
+        {
+            if (!pillarsState[i])
+            {
+                pillars[i].SetActive(true);
+                Vector3 pos = pillars[i].transform.position;
+                pos.y += 2.50f;
+                pillars[i].transform.position = pos;
+                pillarsState[i] = true;
+            }
+        }
+    }
+
     private int GetColorPillarNum(int color, int num)
     {
         return color * 9 + num;
