@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using HoloToolkit.Unity.Buttons;
 
 public class PillarManager : MonoBehaviour {
     public int colorNum;
@@ -12,6 +13,9 @@ public class PillarManager : MonoBehaviour {
     private Color prevColor;
     private SelectedPillarController selectedPillarController;
     public bool isGo;
+
+    public GameObject numberButton;
+    public GameObject colorButton;
 
 	// Use this for initialization
 	void Start () {
@@ -69,5 +73,88 @@ public class PillarManager : MonoBehaviour {
     private int GetColorPillarNum(int color, int num)
     {
         return color * 9 + num;
+    }
+
+    void GameGo()
+    {
+        isGo = true;
+    }
+
+    void SelectOne()
+    {
+        pillarNum = 0;
+        numberButton.GetComponent<CompoundButtonText>().Text = (pillarNum + 1).ToString();
+    }
+
+    void SelectTwo()
+    {
+        pillarNum = 1;
+        numberButton.GetComponent<CompoundButtonText>().Text = (pillarNum + 1).ToString();
+    }
+
+    void SelectThree()
+    {
+        pillarNum = 2;
+        numberButton.GetComponent<CompoundButtonText>().Text = (pillarNum + 1).ToString();
+    }
+
+    void SelectFour()
+    {
+        pillarNum = 3;
+        numberButton.GetComponent<CompoundButtonText>().Text = (pillarNum + 1).ToString();
+    }
+
+    void SelectFive()
+    {
+        pillarNum = 4;
+        numberButton.GetComponent<CompoundButtonText>().Text = (pillarNum + 1).ToString();
+    }
+
+    void SelectSix()
+    {
+        pillarNum = 5;
+        numberButton.GetComponent<CompoundButtonText>().Text = (pillarNum + 1).ToString();
+    }
+
+    void SelectSeven()
+    {
+        pillarNum = 6;
+        numberButton.GetComponent<CompoundButtonText>().Text = (pillarNum + 1).ToString();
+    }
+
+    void SelectEight()
+    {
+        pillarNum = 7;
+        numberButton.GetComponent<CompoundButtonText>().Text = (pillarNum + 1).ToString();
+    }
+
+    void SelectNine()
+    {
+        pillarNum = 8;
+        numberButton.GetComponent<CompoundButtonText>().Text = (pillarNum + 1).ToString();
+    }
+
+    void SelectYellow()
+    {
+        colorNum = 0;
+        colorButton.GetComponent<CompoundButtonMesh>().Profile = colorButton.GetComponent<ColorButtonController>().profile[colorNum];
+    }
+
+    void SelectBlue()
+    {
+        colorNum = 1;
+        colorButton.GetComponent<CompoundButtonMesh>().Profile = colorButton.GetComponent<ColorButtonController>().profile[colorNum];
+    }
+
+    void SelectRed()
+    {
+        colorNum = 2;
+        colorButton.GetComponent<CompoundButtonMesh>().Profile = colorButton.GetComponent<ColorButtonController>().profile[colorNum];
+    }
+
+    void SelectGreen()
+    {
+        colorNum = 3;
+        colorButton.GetComponent<CompoundButtonMesh>().Profile = colorButton.GetComponent<ColorButtonController>().profile[colorNum];
     }
 }

@@ -53,4 +53,9 @@ public class GameController : MonoBehaviour {
     {
         ChangeToGame();
     }
+
+    void GameAgain()
+    {
+        ChangeToStart();
+    }
 }
