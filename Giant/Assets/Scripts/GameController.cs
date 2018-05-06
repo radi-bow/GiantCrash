@@ -48,4 +48,9 @@ public class GameController : MonoBehaviour {
         toolBar.SetActive(false);
         endUI.SetActive(false);
     }
+
+    void GameStart()
+    {
+        ChangeToGame();
+    }
 }

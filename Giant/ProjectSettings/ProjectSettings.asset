@@ -576,7 +576,7 @@ PlayerSettings:
     WindowsStoreApps:
       InternetClient: False
       InternetClientServer: False
-      Microphone: False
+      Microphone: True
       PrivateNetworkClientServer: False
       SpatialPerception: True
       WebCam: False
