@@ -19,7 +19,7 @@ public class GiantCrashController : MonoBehaviour {
     {
         if (other.gameObject.tag == "Giant")
         {
-            Destroy(other);
+            Destroy(other.gameObject);
             gameController.ChangeToEnd();
         }
     }

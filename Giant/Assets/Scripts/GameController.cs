@@ -28,7 +28,10 @@ public class GameController : MonoBehaviour {
     public void ChangeToGame()
     {
         Vector3 pos = pillars.transform.position;
-        Instantiate(giant,new Vector3(pos.x,pos.y + 1.0f,pos.z),pillars.transform.rotation);
+        if (!GameObject.FindGameObjectWithTag("Giant"))
+        {
+            Instantiate(giant,new Vector3(pos.x,pos.y + 1.0f,pos.z),pillars.transform.rotation);
+        }
         startUI.SetActive(false);
         toolBar.SetActive(true);
         endUI.SetActive(false);

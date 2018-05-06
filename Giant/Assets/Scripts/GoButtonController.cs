@@ -11,6 +11,7 @@ public class GoButtonController : MonoBehaviour {
     void Start () {
         pillarManager = GameObject.Find("PillarManager").GetComponent<PillarManager>();
         time = 0.0f;
+        this.GetComponent<CompoundButtonText>().Text = "OK!";
     }
 	
 	// Update is called once per frame
