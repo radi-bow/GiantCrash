@@ -14,93 +14,93 @@ public class SpeechManager : MonoBehaviour
     void Start()
     {
         pillarManager = GameObject.Find("PillarManager").GetComponent<PillarManager>();
-        keywords.Add("すたーと", () =>
+        keywords.Add("start", () =>
         {
             this.BroadcastMessage("GameStart");
         });
 
-        keywords.Add("あげいん", () =>
+        keywords.Add("again", () =>
         {
             this.BroadcastMessage("GameAgain");
         });
 
-        keywords.Add("おーけー", () =>
+        keywords.Add("OK", () =>
         {
             pillarManager.SendMessage("GameGo", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("いちばん", () =>
+        keywords.Add("first", () =>
         {
             
             pillarManager.SendMessage("SelectOne", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("にばん", () =>
+        keywords.Add("second", () =>
         {
             
             pillarManager.SendMessage("SelectTwo", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("さんばん", () =>
+        keywords.Add("third", () =>
         {
             
             pillarManager.SendMessage("SelectThree", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("よんばん", () =>
+        keywords.Add("fourth", () =>
         {
             
             pillarManager.SendMessage("SelectFour", SendMessageOptions.DontRequireReceiver);
         });
-        keywords.Add("ごばん", () =>
+        keywords.Add("fifth", () =>
         {
             
             pillarManager.SendMessage("SelectFive", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("ろくばん", () =>
+        keywords.Add("sixth", () =>
         {
             
             pillarManager.SendMessage("SelectSix", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("ななばん", () =>
+        keywords.Add("seventh", () =>
         {
             
             pillarManager.SendMessage("SelectSeven", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("はちばん", () =>
+        keywords.Add("eighth", () =>
         {
             
             pillarManager.SendMessage("SelectEight", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("きゅうばん", () =>
+        keywords.Add("ninth", () =>
         {
             
             pillarManager.SendMessage("SelectNine", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("きいろ", () =>
+        keywords.Add("yellow", () =>
         {
 
             pillarManager.SendMessage("SelectYellow", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("あお", () =>
+        keywords.Add("blue", () =>
         {
 
             pillarManager.SendMessage("SelectBlue", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("あか", () =>
+        keywords.Add("red", () =>
         {
 
             pillarManager.SendMessage("SelectRed", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("みどり", () =>
+        keywords.Add("green", () =>
         {
 
             pillarManager.SendMessage("SelectGreen", SendMessageOptions.DontRequireReceiver);

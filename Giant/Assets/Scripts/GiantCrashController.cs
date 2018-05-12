@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GiantCrashController : MonoBehaviour {
+    public AudioSource crash;
+
     private GameController gameController;
 
     // Use this for initialization
@@ -25,7 +27,10 @@ public class GiantCrashController : MonoBehaviour {
 
     IEnumerator WaitAndGoEnd(GameObject gameObject)
     {
+        AudioSource audio = Instantiate(crash, gameObject.transform);
+        audio.Play();
         yield return new WaitForSeconds(3.0f);
+        Destroy(audio);
         Destroy(GameObject.Find("Giant(Clone)"));
         gameController.ChangeToEnd();
     }

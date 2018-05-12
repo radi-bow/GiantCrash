@@ -699,7 +699,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -746,7 +746,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -980,11 +980,11 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e7baf9f39f2df944a88802e86579da8a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
-  Spatialize: 0
+  Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 0
@@ -1180,7 +1180,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -1358,7 +1358,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -1536,7 +1536,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -1616,7 +1616,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &201818283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1824,7 +1824,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -2134,7 +2134,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -2312,7 +2312,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -2490,7 +2490,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -3318,7 +3318,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -3365,7 +3365,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -3606,7 +3606,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -3784,7 +3784,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -4005,7 +4005,7 @@ Prefab:
     - target: {fileID: 102999891068218110, guid: 7bcb89df8599d00448726407181348bd,
         type: 2}
       propertyPath: m_Text
-      value: "\u9EC4\u8272"
+      value: Yellow
       objectReference: {fileID: 0}
     - target: {fileID: 114776147498804614, guid: 7bcb89df8599d00448726407181348bd,
         type: 2}
@@ -4066,6 +4066,11 @@ Prefab:
       propertyPath: m_Name
       value: ColorUIButtonSquareFace
       objectReference: {fileID: 0}
+    - target: {fileID: 114210285476315908, guid: 7bcb89df8599d00448726407181348bd,
+        type: 2}
+      propertyPath: KeywordSource
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7bcb89df8599d00448726407181348bd, type: 2}
   m_IsPrefabParent: 0
@@ -4117,15 +4122,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 548492926}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1327828077}
   - {fileID: 2002937615}
   - {fileID: 161329407}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 592658802}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &552719116
 Prefab:
@@ -4284,6 +4289,7 @@ Transform:
   - {fileID: 1022155249}
   - {fileID: 893433750}
   - {fileID: 858629971}
+  - {fileID: 548492927}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4405,7 +4411,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -4688,7 +4694,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -4866,7 +4872,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -5154,7 +5160,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -5332,7 +5338,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -5725,7 +5731,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -5881,6 +5887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3501c51fb1ae82a4cb00e067a9fe27b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crash: {fileID: 82001985890234116, guid: 6faa1185f56ae594d97376c8997de40b, type: 2}
 --- !u!1001 &860668161
 Prefab:
   m_ObjectHideFlags: 0
@@ -6109,7 +6116,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -6666,7 +6673,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -7399,7 +7406,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -7577,7 +7584,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -7870,7 +7877,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -8158,7 +8165,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -8668,7 +8675,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -8877,12 +8884,12 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dfafa984231985b47b7abaa50b094c80, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
-  Spatialize: 0
+  Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
@@ -8934,7 +8941,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -9114,7 +9121,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -9528,7 +9535,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -9816,7 +9823,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -9994,7 +10001,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -10172,7 +10179,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -10350,7 +10357,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -10858,7 +10865,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -11146,7 +11153,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -11544,7 +11551,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -12031,7 +12038,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -12115,7 +12122,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1954781155}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12269,7 +12276,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -12316,7 +12323,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -12479,11 +12486,11 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8171f87313c359a4b8810423e7dedcbf, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
-  Spatialize: 0
+  Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
@@ -12535,7 +12542,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -12683,7 +12690,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0

@@ -20,6 +20,7 @@ public class GameController : MonoBehaviour {
         startUI.SetActive(true);
         toolBar.SetActive(false);
         endUI.SetActive(false);
+        notGameBGM.Play();
         pillarManager = GameObject.Find("PillarManager").GetComponent<PillarManager>();
 	}
 	
