@@ -55,6 +55,7 @@ public class PillarManager : MonoBehaviour {
         if (pillarsState[GetColorPillarNum(color,num)])
         {
             pillars[GetColorPillarNum(color, num)].GetComponent<RemovePillar>().Removed();
+            pillars[GetColorPillarNum(color, num)].GetComponent<AudioSource>().Play();
             pillarsState[GetColorPillarNum(color,num)] = false;
         }
     }

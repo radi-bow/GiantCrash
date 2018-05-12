@@ -6,6 +6,8 @@ public class GameController : MonoBehaviour {
     [SerializeField] private GameObject startUI;
     [SerializeField] private GameObject toolBar;
     [SerializeField] private GameObject endUI;
+    [SerializeField] private AudioSource notGameBGM;
+    [SerializeField] private AudioSource gameBGM;
 
     public GameObject giant;
     public GameObject pillars;
@@ -36,6 +38,8 @@ public class GameController : MonoBehaviour {
         startUI.SetActive(false);
         toolBar.SetActive(true);
         endUI.SetActive(false);
+        notGameBGM.Stop();
+        gameBGM.Play();
     }
 
     public void ChangeToEnd()
@@ -43,6 +47,8 @@ public class GameController : MonoBehaviour {
         startUI.SetActive(false);
         toolBar.SetActive(false);
         endUI.SetActive(true);
+        gameBGM.Stop();
+        notGameBGM.Play();
     }
 
     public void ChangeToStart()

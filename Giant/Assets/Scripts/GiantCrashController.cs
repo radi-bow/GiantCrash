@@ -26,7 +26,7 @@ public class GiantCrashController : MonoBehaviour {
     IEnumerator WaitAndGoEnd(GameObject gameObject)
     {
         yield return new WaitForSeconds(3.0f);
-        Destroy(gameObject);
+        Destroy(GameObject.Find("Giant(Clone)"));
         gameController.ChangeToEnd();
     }
 }
