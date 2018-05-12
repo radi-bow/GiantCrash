@@ -31,7 +31,7 @@ public class GameController : MonoBehaviour {
         Vector3 pos = pillars.transform.position;
         if (!GameObject.FindGameObjectWithTag("Giant"))
         {
-            Instantiate(giant,new Vector3(pos.x,pos.y + firstHeight,pos.z),pillars.transform.rotation);
+            Instantiate(giant,new Vector3(pos.x,pos.y + firstHeight,pos.z),Quaternion.Euler(0,180,0));
         }
         startUI.SetActive(false);
         toolBar.SetActive(true);
