@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4353722097620304}
   m_Layer: 0
   m_Name: neck
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,7 +36,7 @@ GameObject:
   - component: {fileID: 4538604271051994}
   m_Layer: 0
   m_Name: f_pinky_02_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 4923724471610628}
   m_Layer: 0
   m_Name: f_pinky_02_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64,9 +64,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4833385611685248}
+  - component: {fileID: 65792252924130346}
   m_Layer: 0
   m_Name: upper_arm_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,7 +82,7 @@ GameObject:
   - component: {fileID: 4550235862882256}
   m_Layer: 0
   m_Name: palm_04_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,7 +112,7 @@ GameObject:
   - component: {fileID: 4917164560910204}
   m_Layer: 0
   m_Name: palm_02_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,7 +127,7 @@ GameObject:
   - component: {fileID: 4817893270975122}
   m_Layer: 0
   m_Name: R_IK_A
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,7 +142,7 @@ GameObject:
   - component: {fileID: 4756188525879792}
   m_Layer: 0
   m_Name: f_ring_01_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -156,7 +157,7 @@ GameObject:
   - component: {fileID: 4068250264678366}
   m_Layer: 0
   m_Name: hips
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,7 +172,7 @@ GameObject:
   - component: {fileID: 4066702039740928}
   m_Layer: 0
   m_Name: f_index_01_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -184,9 +185,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4752603955637452}
+  - component: {fileID: 65892292095235032}
   m_Layer: 0
   m_Name: hand_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -201,7 +203,7 @@ GameObject:
   - component: {fileID: 4214975048469776}
   m_Layer: 0
   m_Name: palm_03_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -216,7 +218,7 @@ GameObject:
   - component: {fileID: 4966572650571818}
   m_Layer: 0
   m_Name: f_middle_02_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -231,7 +233,7 @@ GameObject:
   - component: {fileID: 4707914252232782}
   m_Layer: 0
   m_Name: L_IK_A
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -246,7 +248,7 @@ GameObject:
   - component: {fileID: 4914928354618822}
   m_Layer: 0
   m_Name: f_ring_02_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -261,7 +263,7 @@ GameObject:
   - component: {fileID: 4042428894185480}
   m_Layer: 0
   m_Name: thumb_02_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -274,9 +276,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4579060229901548}
+  - component: {fileID: 65842555083935084}
   m_Layer: 0
   m_Name: hand_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,7 +294,7 @@ GameObject:
   - component: {fileID: 4858749723761474}
   m_Layer: 0
   m_Name: thumb_01_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -306,7 +309,7 @@ GameObject:
   - component: {fileID: 4416614054471360}
   m_Layer: 0
   m_Name: f_middle_01_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -321,7 +324,7 @@ GameObject:
   - component: {fileID: 4343281705441128}
   m_Layer: 0
   m_Name: thumb_01_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -336,7 +339,7 @@ GameObject:
   - component: {fileID: 4457444484639484}
   m_Layer: 0
   m_Name: L_IK_AL
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -349,9 +352,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4016944744687542}
+  - component: {fileID: 65771765431003846}
   m_Layer: 0
   m_Name: head
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -364,9 +368,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4752226960729292}
+  - component: {fileID: 65060415659160724}
   m_Layer: 0
   m_Name: upper_arm_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -381,7 +386,7 @@ GameObject:
   - component: {fileID: 4654468843486844}
   m_Layer: 0
   m_Name: palm_01_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -396,7 +401,7 @@ GameObject:
   - component: {fileID: 4163761957463356}
   m_Layer: 0
   m_Name: thumb_02_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -411,7 +416,7 @@ GameObject:
   - component: {fileID: 4229137899922144}
   m_Layer: 0
   m_Name: f_middle_02_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -426,7 +431,7 @@ GameObject:
   - component: {fileID: 4956059607554914}
   m_Layer: 0
   m_Name: R_IK_AR
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -442,7 +447,7 @@ GameObject:
   - component: {fileID: 65709396900408382}
   m_Layer: 0
   m_Name: foot_R0
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -457,7 +462,7 @@ GameObject:
   - component: {fileID: 4160469494102360}
   m_Layer: 0
   m_Name: palm_04_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -472,7 +477,7 @@ GameObject:
   - component: {fileID: 4195063192174498}
   m_Layer: 0
   m_Name: foot_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -487,7 +492,7 @@ GameObject:
   - component: {fileID: 4963523097027152}
   m_Layer: 0
   m_Name: palm_02_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -502,7 +507,7 @@ GameObject:
   - component: {fileID: 4594765334086276}
   m_Layer: 0
   m_Name: robo1_bone_ALL_IK
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -517,7 +522,7 @@ GameObject:
   - component: {fileID: 4659796953274790}
   m_Layer: 0
   m_Name: f_pinky_01_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -532,7 +537,7 @@ GameObject:
   - component: {fileID: 4952056460687260}
   m_Layer: 0
   m_Name: L_IK_LL
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -547,7 +552,7 @@ GameObject:
   - component: {fileID: 4020949286228552}
   m_Layer: 0
   m_Name: R_IK_LL
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -562,7 +567,7 @@ GameObject:
   - component: {fileID: 4928383406119442}
   m_Layer: 0
   m_Name: chest
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -577,7 +582,7 @@ GameObject:
   - component: {fileID: 4009386945275504}
   m_Layer: 0
   m_Name: foot_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -592,7 +597,7 @@ GameObject:
   - component: {fileID: 4470970531295204}
   m_Layer: 0
   m_Name: f_middle_01_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -608,7 +613,7 @@ GameObject:
   - component: {fileID: 65411072305624908}
   m_Layer: 0
   m_Name: foot_L0
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -623,7 +628,7 @@ GameObject:
   - component: {fileID: 4875954672733776}
   m_Layer: 0
   m_Name: palm_03_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -638,7 +643,7 @@ GameObject:
   - component: {fileID: 4596774283280804}
   m_Layer: 0
   m_Name: shin_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -653,7 +658,7 @@ GameObject:
   - component: {fileID: 4940473314133254}
   m_Layer: 0
   m_Name: forearm_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -668,7 +673,7 @@ GameObject:
   - component: {fileID: 4511226857141596}
   m_Layer: 0
   m_Name: f_index_02_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -683,7 +688,7 @@ GameObject:
   - component: {fileID: 4901144879222524}
   m_Layer: 0
   m_Name: L_IK_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -697,7 +702,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4316990826842540}
   - component: {fileID: 54416142844705396}
-  - component: {fileID: 64213130042839958}
   m_Layer: 0
   m_Name: MyRobot
   m_TagString: Giant
@@ -715,7 +719,7 @@ GameObject:
   - component: {fileID: 4090076131564988}
   m_Layer: 0
   m_Name: f_index_01_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -730,7 +734,7 @@ GameObject:
   - component: {fileID: 4506825190264274}
   m_Layer: 0
   m_Name: shin_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -745,7 +749,7 @@ GameObject:
   - component: {fileID: 4328787664135446}
   m_Layer: 0
   m_Name: f_ring_01_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -760,7 +764,7 @@ GameObject:
   - component: {fileID: 4829869281043100}
   m_Layer: 0
   m_Name: f_pinky_01_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -773,9 +777,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4865990094844806}
+  - component: {fileID: 65071553128451346}
   m_Layer: 0
   m_Name: thigh_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -788,9 +793,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4723619671476416}
+  - component: {fileID: 65534045119441472}
   m_Layer: 0
   m_Name: thigh_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -805,7 +811,7 @@ GameObject:
   - component: {fileID: 4941376284122002}
   m_Layer: 0
   m_Name: f_index_02_R
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -820,7 +826,7 @@ GameObject:
   - component: {fileID: 4542204754875940}
   m_Layer: 0
   m_Name: f_ring_02_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -835,7 +841,7 @@ GameObject:
   - component: {fileID: 4134291987914100}
   m_Layer: 0
   m_Name: forearm_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -866,7 +872,7 @@ GameObject:
   - component: {fileID: 4774877255841588}
   m_Layer: 0
   m_Name: palm_01_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -881,7 +887,7 @@ GameObject:
   - component: {fileID: 4125127231902040}
   m_Layer: 0
   m_Name: R_IK_L
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -894,9 +900,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4119351420919672}
+  - component: {fileID: 65743936168807202}
   m_Layer: 0
   m_Name: spine
-  m_TagString: Untagged
+  m_TagString: Giant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1142,7 +1149,7 @@ Transform:
   m_GameObject: {fileID: 1703522585295650}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4829311996978994}
   - {fileID: 4227219802523568}
@@ -1743,20 +1750,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64213130042839958
-MeshCollider:
+--- !u!65 &65060415659160724
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1703522585295650}
+  m_GameObject: {fileID: 1370838995724922}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 4835a6657e57ded45b7a7fe2c2d62822, type: 3}
+  m_Size: {x: 0.1, y: 0.813381, z: 0.1}
+  m_Center: {x: -0.00000003599885, y: 0.1566906, z: 0.0000000012229844}
+--- !u!65 &65071553128451346
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1789978288945266}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.9766338, z: 0.10000002}
+  m_Center: {x: 0.0000005298489, y: 0.51168245, z: -0.00000017143401}
 --- !u!65 &65411072305624908
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1765,10 +1782,22 @@ BoxCollider:
   m_GameObject: {fileID: 1588652880552592}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.3, y: 0.3, z: 0.1}
-  m_Center: {x: 0, y: -0.1, z: -0.03}
+  m_Size: {x: 0.1196604, y: 0.3716381, z: 0.09999999}
+  m_Center: {x: -0.010996894, y: -0.06418131, z: -0.02999999}
+--- !u!65 &65534045119441472
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790327948013026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 1.1037972, z: 0.10000002}
+  m_Center: {x: 0.0000005336248, y: 0.4481007, z: -0.00000017772246}
 --- !u!65 &65709396900408382
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -1777,10 +1806,70 @@ BoxCollider:
   m_GameObject: {fileID: 1443749281319300}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.3, y: 0.3, z: 0.1}
-  m_Center: {x: 0, y: -0.1, z: -0.03}
+  m_Size: {x: 0.13656405, y: 0.29968253, z: 0.099999994}
+  m_Center: {x: -0.0052595185, y: -0.04476359, z: -0.030000018}
+--- !u!65 &65743936168807202
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1993147580907606}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.40799597, y: 0.5782783, z: 0.26743567}
+  m_Center: {x: 0.050113425, y: 0.2108604, z: 0.09691579}
+--- !u!65 &65771765431003846
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1361463790362984}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15478289, y: 0.23929065, z: 0.1}
+  m_Center: {x: 0.0018291424, y: 0.043948464, z: -0.0000000074010913}
+--- !u!65 &65792252924130346
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1068743582194540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.813381, z: 0.1}
+  m_Center: {x: -0.00000003599885, y: 0.1566906, z: 0.0000000012229844}
+--- !u!65 &65842555083935084
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1296300947986206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.24401246, z: 0.1}
+  m_Center: {x: 0.0000000014259673, y: 0.07200624, z: -0.000000040965286}
+--- !u!65 &65892292095235032
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1250221756943408}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.24401246, z: 0.1}
+  m_Center: {x: 0.0000000014259673, y: 0.07200624, z: -0.000000040965286}
 --- !u!137 &137151930767499144
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
