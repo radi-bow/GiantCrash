@@ -2015,6 +2015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cedbf6819d4cab4ca3bffdbeb9024dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonSE: {fileID: 161329406}
 --- !u!1 &243098715
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,6 +2620,7 @@ MonoBehaviour:
   isGo: 0
   numberButton: {fileID: 2043319539}
   colorButton: {fileID: 513474787}
+  buttonSE: {fileID: 161329406}
 --- !u!4 &299632493
 Transform:
   m_ObjectHideFlags: 0
@@ -4093,6 +4095,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 873dc36fa1f702b47baf5bfb8999a8eb, type: 2}
   - {fileID: 11400000, guid: 880c4b9ee51953a4ca3a583be1a3824c, type: 2}
   - {fileID: 11400000, guid: 32e19bbaba7e7a241a0f0030599246c2, type: 2}
+  buttonSE: {fileID: 161329406}
 --- !u!1 &548492926
 GameObject:
   m_ObjectHideFlags: 0
@@ -4250,6 +4253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d1857397722cd40a533fe46e8a22aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonSE: {fileID: 161329406}
 --- !u!1 &592658801
 GameObject:
   m_ObjectHideFlags: 0
@@ -6843,6 +6847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 296c5388d2f42904a86a1a779bb29e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonSE: {fileID: 161329406}
 --- !u!1 &981784965
 GameObject:
   m_ObjectHideFlags: 0
@@ -12559,6 +12564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0563469ff797ef04699f0bfdcbeeb994, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonSE: {fileID: 161329406}
 --- !u!1 &2049986668
 GameObject:
   m_ObjectHideFlags: 0

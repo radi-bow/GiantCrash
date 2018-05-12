@@ -7,6 +7,8 @@ public class AgainButtonController : MonoBehaviour {
     private float time;
     private GameController gameController;
 
+    public AudioSource buttonSE;
+
     // Use this for initialization
     void Start()
     {
@@ -37,6 +39,7 @@ public class AgainButtonController : MonoBehaviour {
         if (time > 1.0f)
         {
             time = 0.0f;
+            buttonSE.Play();
             gameController.ChangeToStart();
         }
     }

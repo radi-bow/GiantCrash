@@ -4,6 +4,8 @@ using UnityEngine;
 using HoloToolkit.Unity.Buttons;
 
 public class DebugButtonController : MonoBehaviour {
+    public AudioSource buttonSE;
+
     private float time;
 
     // Use this for initialization
@@ -33,6 +35,7 @@ public class DebugButtonController : MonoBehaviour {
         if (time > 1.0f)
         {
             time = 0.0f;
+            buttonSE.Play();
             ReplaceObject.placing = true;
             GameObject.Find("StartUI").SetActive(false);
         }

@@ -5,6 +5,8 @@ using HoloToolkit.Unity.Buttons;
 
 public class ColorButtonController : MonoBehaviour {
     public ButtonMeshProfile[] profile;
+    public AudioSource buttonSE;
+
     private PillarManager pillarManager;
     private float time;
 
@@ -37,6 +39,7 @@ public class ColorButtonController : MonoBehaviour {
         if(time > 1.0f)
         {
             time = 0.0f;
+            buttonSE.Play();
             pillarManager.colorNum++;
             if (pillarManager.colorNum == 4)
             {

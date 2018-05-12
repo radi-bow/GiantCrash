@@ -4,6 +4,8 @@ using UnityEngine;
 using HoloToolkit.Unity.Buttons;
 
 public class NumberButtonController : MonoBehaviour {
+    public AudioSource buttonSE;
+
     private PillarManager pillarManager;
     private float time;
 
@@ -38,6 +40,7 @@ public class NumberButtonController : MonoBehaviour {
         if(time > 1.0f)
         {
             time = 0.0f;
+            buttonSE.Play();
             pillarManager.pillarNum++;
             if (pillarManager.pillarNum == 9)
             {

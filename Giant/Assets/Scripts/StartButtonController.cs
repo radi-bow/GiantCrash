@@ -4,6 +4,7 @@ using UnityEngine;
 using HoloToolkit.Unity.Buttons;
 
 public class StartButtonController : MonoBehaviour {
+    public AudioSource buttonSE;
     private float time;
     private GameController gameController;
 
@@ -37,6 +38,7 @@ public class StartButtonController : MonoBehaviour {
         if (time > 1.0f)
         {
             time = 0.0f;
+            buttonSE.Play();
             gameController.ChangeToGame();
         }
     }
