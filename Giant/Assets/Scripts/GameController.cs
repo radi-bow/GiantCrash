@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour {
 
     public GameObject giant;
     public GameObject pillars;
+    public float firstHeight;
 
     private PillarManager pillarManager;
 
@@ -30,7 +31,7 @@ public class GameController : MonoBehaviour {
         Vector3 pos = pillars.transform.position;
         if (!GameObject.FindGameObjectWithTag("Giant"))
         {
-            Instantiate(giant,new Vector3(pos.x,pos.y + 1.0f,pos.z),pillars.transform.rotation);
+            Instantiate(giant,new Vector3(pos.x,pos.y + firstHeight,pos.z),pillars.transform.rotation);
         }
         startUI.SetActive(false);
         toolBar.SetActive(true);

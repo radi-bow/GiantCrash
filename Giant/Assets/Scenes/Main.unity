@@ -9112,8 +9112,9 @@ MonoBehaviour:
   startUI: {fileID: 403573882}
   toolBar: {fileID: 201818282}
   endUI: {fileID: 1395468126}
-  giant: {fileID: 1147902845571138, guid: 22bad7212b89951489afcd0ae4051f4e, type: 2}
+  giant: {fileID: 1703522585295650, guid: 88ceb0889383b104b8c4be2882d611f0, type: 2}
   pillars: {fileID: 592658801}
+  firstHeight: 0.3
 --- !u!114 &1954781158
 MonoBehaviour:
   m_ObjectHideFlags: 0
