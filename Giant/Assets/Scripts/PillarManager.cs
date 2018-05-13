@@ -70,7 +70,7 @@ public class PillarManager : MonoBehaviour {
             {
                 pillars[i].SetActive(true);
                 Vector3 pos = pillars[i].transform.position;
-                pos.y += 2.50f;
+                pos.y += 1.00f;
                 pillars[i].transform.position = pos;
                 pillarsState[i] = true;
             }

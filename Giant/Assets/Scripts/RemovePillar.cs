@@ -24,7 +24,7 @@ public class RemovePillar : MonoBehaviour {
         while(count < 50)
         {
             Vector3 pos = this.transform.position;
-            pos.y -= 0.05f;
+            pos.y -= 0.02f;
             this.transform.position = pos;
             count++;
             yield return new WaitForSeconds(0.05f);

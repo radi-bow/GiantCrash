@@ -14,6 +14,7 @@ public class GameController : MonoBehaviour {
     public float firstHeight;
 
     private PillarManager pillarManager;
+    private GiantCrashController giantCrashController;
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +23,7 @@ public class GameController : MonoBehaviour {
         endUI.SetActive(false);
         notGameBGM.Play();
         pillarManager = GameObject.Find("PillarManager").GetComponent<PillarManager>();
+        giantCrashController = GameObject.Find("CrashZone").GetComponent<GiantCrashController>();
 	}
 	
 	// Update is called once per frame
@@ -34,11 +36,12 @@ public class GameController : MonoBehaviour {
         Vector3 pos = pillars.transform.position;
         if (!GameObject.FindGameObjectWithTag("Giant"))
         {
-            Instantiate(giant,new Vector3(pos.x,pos.y + firstHeight,pos.z),pillars.transform.rotation * Quaternion.Euler(0,180,0));
+            Instantiate(giant,new Vector3(pos.x,pos.y + firstHeight,pos.z),pillars.transform.rotation * Quaternion.Euler(0,150,0));
         }
         startUI.SetActive(false);
         toolBar.SetActive(true);
         endUI.SetActive(false);
+        giantCrashController.isCrash = false;
         notGameBGM.Stop();
         gameBGM.Play();
     }

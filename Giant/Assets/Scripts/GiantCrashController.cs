@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class GiantCrashController : MonoBehaviour {
     public AudioSource crash;
+    public bool isCrash;
 
     private GameController gameController;
 
     // Use this for initialization
     void Start () {
         gameController = GameObject.Find("GameController").GetComponent<GameController>();
+        isCrash = false;
     }
 	
 	// Update is called once per frame
@@ -27,11 +29,15 @@ public class GiantCrashController : MonoBehaviour {
 
     IEnumerator WaitAndGoEnd(GameObject gameObject)
     {
-        AudioSource audio = Instantiate(crash, gameObject.transform);
-        audio.Play();
-        yield return new WaitForSeconds(3.0f);
-        Destroy(audio);
-        Destroy(GameObject.Find("Giant(Clone)"));
-        gameController.ChangeToEnd();
+        if (!isCrash)
+        {
+            isCrash = true;
+            AudioSource audio = Instantiate(crash, gameObject.transform);
+            audio.Play();
+            yield return new WaitForSeconds(3.0f);
+            Destroy(audio);
+            Destroy(GameObject.Find("Giant(Clone)"));
+            gameController.ChangeToEnd();
+        }
     }
 }
