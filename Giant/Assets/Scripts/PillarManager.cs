@@ -155,7 +155,7 @@ public class PillarManager : MonoBehaviour {
         colorNum = 0;
         buttonSE.Play();
         //colorButton.GetComponent<CompoundButtonMesh>().Profile = colorButton.GetComponent<ColorButtonController>().profile[colorNum];
-        colorButton.GetComponent<CompoundButtonText>().Text = "黄色";
+        colorButton.GetComponent<CompoundButtonText>().Text = "yellow";
     }
 
     void SelectBlue()
@@ -163,7 +163,7 @@ public class PillarManager : MonoBehaviour {
         colorNum = 1;
         buttonSE.Play();
         //colorButton.GetComponent<CompoundButtonMesh>().Profile = colorButton.GetComponent<ColorButtonController>().profile[colorNum];
-        colorButton.GetComponent<CompoundButtonText>().Text = "青";
+        colorButton.GetComponent<CompoundButtonText>().Text = "blue";
     }
 
     void SelectRed()
@@ -171,7 +171,7 @@ public class PillarManager : MonoBehaviour {
         colorNum = 2;
         buttonSE.Play();
         //colorButton.GetComponent<CompoundButtonMesh>().Profile = colorButton.GetComponent<ColorButtonController>().profile[colorNum];
-        colorButton.GetComponent<CompoundButtonText>().Text = "赤";
+        colorButton.GetComponent<CompoundButtonText>().Text = "red";
     }
 
     void SelectGreen()
@@ -179,6 +179,6 @@ public class PillarManager : MonoBehaviour {
         colorNum = 3;
         buttonSE.Play();
         //colorButton.GetComponent<CompoundButtonMesh>().Profile = colorButton.GetComponent<ColorButtonController>().profile[colorNum];
-        colorButton.GetComponent<CompoundButtonText>().Text = "緑";
+        colorButton.GetComponent<CompoundButtonText>().Text = "green";
     }
 }

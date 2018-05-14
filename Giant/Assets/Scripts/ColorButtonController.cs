@@ -49,19 +49,19 @@ public class ColorButtonController : MonoBehaviour {
             switch (pillarManager.colorNum)
             {
                 case 0:
-                    GetComponent<CompoundButtonText>().Text = "Yellow";
+                    GetComponent<CompoundButtonText>().Text = "yellow";
                     break;
 
                 case 1:
-                    GetComponent<CompoundButtonText>().Text = "Blue";
+                    GetComponent<CompoundButtonText>().Text = "blue";
                     break;
 
                 case 2:
-                    GetComponent<CompoundButtonText>().Text = "Red";
+                    GetComponent<CompoundButtonText>().Text = "red";
                     break;
 
                 case 3:
-                    GetComponent<CompoundButtonText>().Text = "Green";
+                    GetComponent<CompoundButtonText>().Text = "green";
                     break;
             }
         }
