@@ -36,7 +36,7 @@ public class GiantCrashController : MonoBehaviour {
             audio.Play();
             yield return new WaitForSeconds(3.0f);
             Destroy(audio);
-            Destroy(GameObject.Find("Giant(Clone)"));
+            //Destroy(GameObject.Find("Giant(Clone)"));
             gameController.ChangeToEnd();
         }
     }

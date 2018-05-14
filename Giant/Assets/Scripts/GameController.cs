@@ -58,6 +58,7 @@ public class GameController : MonoBehaviour {
     public void ChangeToStart()
     {
         pillarManager.ResetPillars();
+        Destroy(GameObject.Find("Giant(Clone)"));
         startUI.SetActive(true);
         toolBar.SetActive(false);
         endUI.SetActive(false);
