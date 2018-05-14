@@ -53,7 +53,7 @@ public class GameController : MonoBehaviour {
         startUI.SetActive(false);
         toolBar.SetActive(false);
         endUI.SetActive(true);
-        scoreText.text = "record : " + pillarManager.GetNumberOfPillars().ToString() + "pillars";
+        scoreText.text = "record : " + pillarManager.GetNumberOfPillars().ToString() + " pillars";
         gameBGM.Stop();
         notGameBGM.Play();
     }
