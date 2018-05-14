@@ -82,6 +82,19 @@ public class PillarManager : MonoBehaviour {
         return color * 9 + num;
     }
 
+    public int GetNumberOfPillars()
+    {
+        int count = 0;
+        for(int i = 0; i < 36; i++)
+        {
+            if (!pillarsState[i])
+            {
+                count++;
+            }
+        }
+        return count;
+    }
+
     void GameGo()
     {
         isGo = true;

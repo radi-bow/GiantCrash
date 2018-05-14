@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
     [SerializeField] private GameObject startUI;
@@ -12,6 +13,7 @@ public class GameController : MonoBehaviour {
     public GameObject giant;
     public GameObject pillars;
     public float firstHeight;
+    public Text scoreText;
 
     private PillarManager pillarManager;
     private GiantCrashController giantCrashController;
@@ -51,6 +53,7 @@ public class GameController : MonoBehaviour {
         startUI.SetActive(false);
         toolBar.SetActive(false);
         endUI.SetActive(true);
+        scoreText.text = "record : " + pillarManager.GetNumberOfPillars().ToString() + "pillars";
         gameBGM.Stop();
         notGameBGM.Play();
     }
