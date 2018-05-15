@@ -2315,7 +2315,7 @@ Prefab:
     - target: {fileID: 102999891068218110, guid: 7bcb89df8599d00448726407181348bd,
         type: 2}
       propertyPath: m_Text
-      value: yellow
+      value: "\u9EC4\u8272"
       objectReference: {fileID: 0}
     - target: {fileID: 114776147498804614, guid: 7bcb89df8599d00448726407181348bd,
         type: 2}
@@ -3729,7 +3729,7 @@ Prefab:
     - target: {fileID: 102999891068218110, guid: 7bcb89df8599d00448726407181348bd,
         type: 2}
       propertyPath: m_Text
-      value: blue
+      value: "\u9752\u8272"
       objectReference: {fileID: 0}
     - target: {fileID: 114776147498804614, guid: 7bcb89df8599d00448726407181348bd,
         type: 2}
@@ -5869,7 +5869,7 @@ Prefab:
     - target: {fileID: 102999891068218110, guid: 7bcb89df8599d00448726407181348bd,
         type: 2}
       propertyPath: m_Text
-      value: green
+      value: "\u7DD1\u8272"
       objectReference: {fileID: 0}
     - target: {fileID: 114776147498804614, guid: 7bcb89df8599d00448726407181348bd,
         type: 2}
@@ -7683,7 +7683,7 @@ Prefab:
     - target: {fileID: 102999891068218110, guid: 7bcb89df8599d00448726407181348bd,
         type: 2}
       propertyPath: m_Text
-      value: red
+      value: "\u8D64\u8272"
       objectReference: {fileID: 0}
     - target: {fileID: 114776147498804614, guid: 7bcb89df8599d00448726407181348bd,
         type: 2}
