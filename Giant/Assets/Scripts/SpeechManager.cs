@@ -88,19 +88,19 @@ public class SpeechManager : MonoBehaviour
             pillarManager.SendMessage("SelectYellow", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("are o e-row", () =>
+        keywords.Add("are o e row", () =>
         {
 
             pillarManager.SendMessage("SelectBlue", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("archa e-row", () =>
+        keywords.Add("archa e row", () =>
         {
 
             pillarManager.SendMessage("SelectRed", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("me dori e-row", () =>
+        keywords.Add("me dori e row", () =>
         {
 
             pillarManager.SendMessage("SelectGreen", SendMessageOptions.DontRequireReceiver);
