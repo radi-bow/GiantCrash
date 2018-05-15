@@ -29,78 +29,78 @@ public class SpeechManager : MonoBehaviour
             pillarManager.SendMessage("GameGo", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("first", () =>
+        keywords.Add("e chee ban", () =>
         {
             
             pillarManager.SendMessage("SelectOne", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("second", () =>
+        keywords.Add("knee ban", () =>
         {
             
             pillarManager.SendMessage("SelectTwo", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("third", () =>
+        keywords.Add("sun ban", () =>
         {
             
             pillarManager.SendMessage("SelectThree", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("fourth", () =>
+        keywords.Add("yong ban", () =>
         {
             
             pillarManager.SendMessage("SelectFour", SendMessageOptions.DontRequireReceiver);
         });
-        keywords.Add("fifth", () =>
+        keywords.Add("go ban", () =>
         {
             
             pillarManager.SendMessage("SelectFive", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("sixth", () =>
+        keywords.Add("rock ban", () =>
         {
             
             pillarManager.SendMessage("SelectSix", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("seventh", () =>
+        keywords.Add("nana ban", () =>
         {
             
             pillarManager.SendMessage("SelectSeven", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("eighth", () =>
+        keywords.Add("ha chee ban", () =>
         {
             
             pillarManager.SendMessage("SelectEight", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("ninth", () =>
+        keywords.Add("qew ban", () =>
         {
             
             pillarManager.SendMessage("SelectNine", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("yellow", () =>
+        keywords.Add("key roe", () =>
         {
 
             pillarManager.SendMessage("SelectYellow", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("blue", () =>
+        keywords.Add("are o e-row", () =>
         {
 
             pillarManager.SendMessage("SelectBlue", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("red", () =>
+        keywords.Add("archa e-row", () =>
         {
 
             pillarManager.SendMessage("SelectRed", SendMessageOptions.DontRequireReceiver);
         });
 
-        keywords.Add("green", () =>
+        keywords.Add("me dori e-row", () =>
         {
 
             pillarManager.SendMessage("SelectGreen", SendMessageOptions.DontRequireReceiver);
