@@ -14506,7 +14506,7 @@ MonoBehaviour:
   gameBGM: {fileID: 2002937616}
   giant: {fileID: 1703522585295650, guid: 88ceb0889383b104b8c4be2882d611f0, type: 2}
   pillars: {fileID: 592658801}
-  firstHeight: 0.2
+  firstHeight: 0.15
   scoreText: {fileID: 1275124762}
 --- !u!114 &1954781158
 MonoBehaviour:
