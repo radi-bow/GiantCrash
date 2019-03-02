@@ -1,6 +1,8 @@
 # GiantCrash
 <img src="Images/Giant_concept.png" width="500px">
 
+<img src="Images/Giant.png" width="500px">
+
 # 使用デバイス
 Microsoft社のHoloLensが必要です．
 
